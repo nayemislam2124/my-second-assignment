@@ -253,6 +253,7 @@ nav .header-button i{
     width:100%;
     height:auto;
     background-color: #ff42a5;
+    transition:all 0.4s ease;
 }
 .career-container{
     display:flex;
@@ -297,6 +298,7 @@ footer{
     width:100%;
     height:auto;
     background-color: #0B0223;
+    transition:all 0.4s ease;
 }
 .header-title{
     color:#ff42a5;
