@@ -46,6 +46,7 @@ body{
     color:white;
 }
 /* shared text styles end  */
+
 /* navbar styles start  */
 nav{
     width:100%;
@@ -98,6 +99,7 @@ nav .header-button i{
     margin-left:0.5rem;
 }
 /* navbar styles end */
+
 /* header banner styles start  */
 .header-banner{
     max-width:800px;
@@ -129,6 +131,7 @@ nav .header-button i{
     width:100%;
 }
 /* header banner styles end  */
+
 /* we are gamer section styles start  */
 .we-are-gamer-container{
     display:flex;
@@ -161,6 +164,7 @@ nav .header-button i{
     color:#3C354F;
 }
 /* we are gamer section styles end  */
+
 /* online games and funny videos section styles start  */
 .funny-video-header-title{
     text-align:center;
@@ -207,6 +211,7 @@ nav .header-button i{
 }
 .bonus-card i{
     font-size:1.5rem;
+    transition:all 0.4s ease;
 }
 .bonus-card h6{
     color:#ff42a5;
@@ -335,6 +340,7 @@ footer{
     width:100%;
     height:auto;
     background-color: #0B0223;
+    overflow:hidden;
     transition:all 0.4s ease;
 }
 .header-title{
