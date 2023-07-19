@@ -386,7 +386,7 @@ footer{
 }
 .footer-terms-menu a{
     text-decoration:none;
-    color:rgba(255, 255, 255, 0.734);
+    color:rgba(255, 255, 255, 0.60);
     font-size:0.7rem;
     font-weight:600;
     margin-right:2rem;
@@ -711,4 +711,4 @@ footer{
         text-align:center;
     }
 }
-
+/* responsive - mobile devices end  */
