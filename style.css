@@ -1,4 +1,4 @@
-*{
+* {
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -161,7 +161,7 @@ nav .header-button i{
     color:#3C354F;
 }
 /* we are gamer section styles end  */
-/* funny videos section styles start  */
+/* online games and funny videos section styles start  */
 .funny-video-header-title{
     text-align:center;
     margin-top:4rem;
@@ -193,7 +193,8 @@ nav .header-button i{
 }
 .bonus-card{
     width:100%;
-    height:80%;background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.70)),url("images/rectangle7.png");
+    height:80%;
+    background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.70)),url("images/rectangle7.png");
     background-size:contain;
     background-repeat: no-repeat;
     display:flex;
@@ -213,7 +214,7 @@ nav .header-button i{
     font-weight:500;
     margin-top:0.5rem;
 }
-/* funny videos section styles end  */
+/* online games and funny videos section styles end  */
 
 /* play instantly section styles start */
 .play-container{
@@ -248,6 +249,7 @@ nav .header-button i{
     top:200px;
 }
 /* play-instantly section styles end  */
+
 /* career section styles start */
 .career-section{
     width:100%;
@@ -292,6 +294,41 @@ nav .header-button i{
     font-weight:600;
     margin-bottom:1rem;
 }
+/* career section styles end  */
+
+/* games categories styles start  */
+.game-categories-container{
+    max-width:900px;
+    height:20vh;
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    gap:1rem;
+    transition:all 0.4s ease;
+}
+.categories-items{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition:all 0.4s ease;
+}
+.categories-items:hover{
+    border:2px solid #F948B2;
+    color:#ff42a5;
+    border-radius:5rem;
+    padding:.3rem 0;
+}
+.categories-items img{
+    width:2rem;
+    margin-right:0.5rem;
+}
+.categories-items span{
+    font-weight:600;
+    font-size:0.7rem;
+}
+/* games categories styles end  */
 
 /* footer section start  */
 footer{
@@ -460,6 +497,29 @@ footer{
         margin-top:1.5rem;
         gap:2rem;
     }
+    .game-categories-container{
+        grid-template-columns: repeat(3,1fr);
+        padding:2rem;
+        width:100%;
+        height:auto;
+        
+    }
+    .categories-items{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        transition:all 0.4s ease;
+    }
+    .categories-items:hover{
+        border:2px solid #F948B2;
+        color:#ff42a5;
+        border-radius:5rem;
+        padding:.3rem 0;
+    }
+    .categories-items span{
+        font-weight:600;
+        font-size:0.8rem;
+    }
     /* footer responsive  */
     .footer-header{
         justify-content:center;
@@ -589,7 +649,31 @@ footer{
     .career-image{
         margin:0 auto;
     }
+    .game-categories-container{
+        grid-template-columns: repeat(3,1fr);
+        padding:2rem;
+        width:100%;
+        height:auto;
+        
+    }
+    .categories-items{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        transition:all 0.4s ease;
+    }
+    .categories-items:hover{
+        border:2px solid #F948B2;
+        color:#ff42a5;
+        border-radius:5rem;
+        padding:.3rem 0;
+    }
+    .categories-items span{
+        font-weight:600;
+        font-size:0.5rem;
+    }
     /* footer responsive  */
+    
     .footer-header{
         justify-content:center;
     }
