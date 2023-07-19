@@ -299,7 +299,7 @@ nav .header-button i{
 /* games categories styles start  */
 .game-categories-container{
     max-width:900px;
-    height:20vh;
+    height:30vh;
     display:grid;
     grid-template-columns:repeat(5,1fr);
     justify-content: center;
@@ -646,8 +646,8 @@ footer{
         margin-top:1.5rem;
         gap:2rem;
     }
-    .career-image{
-        margin:0 auto;
+    .career-image img{
+        width:100%;
     }
     .game-categories-container{
         grid-template-columns: repeat(3,1fr);
@@ -705,3 +705,4 @@ footer{
         text-align:center;
     }
 }
+
